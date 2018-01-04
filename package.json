@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Evilcome/restify-cookie-session.git"
+    "url": "https://github.com/pisse/restify-cookie-session.git"
   },
   "keywords": [
     "restify",
@@ -18,20 +18,25 @@
   "author": "huanghuang240@163.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Evilcome/restify-cookie-session/issues"
+    "url": "https://github.com/pisse/restify-cookie-session/issues"
   },
-  "homepage": "https://github.com/Evilcome/restify-cookie-session",
+  "homepage": "https://github.com/pisse/restify-cookie-session",
   "devDependencies": {
     "chalk": "^0.5.1",
     "gulp": "^3.8.8",
     "gulp-jshint": "^1.8.4",
     "gulp-mocha": "^1.1.0",
     "gulp-util": "^3.0.1",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "supertest": "^3.0.0",
+    "should": "3.x",
+    "restify": "^4.0.4"
   },
   "dependencies": {
+    "mocha": "^1.21.5",
     "object_utils": "^0.1.0",
     "restify": "^2.8.2",
-    "secure-rnd": "^1.0.0"
+    "secure-rnd": "^1.0.0",
+    "cookie": "^0.1.2"
   }
 }
